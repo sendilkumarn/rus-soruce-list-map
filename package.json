@@ -1,0 +1,19 @@
+{
+  "name": "rusource-list-map",
+  "version": "0.0.0",
+  "description": "Rust based webpack source list map",
+  "main": "lib/index.js",
+  "author": "sendilkumarn <sendilkumarn@live.com>",
+  "license": "MIT",
+  "dependencies": {
+    "neon-cli": "^0.1.18"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.1",
+    "should": "^5.2.0"
+  },
+  "scripts": {
+    "install": "neon build",
+    "test": "mocha -R spec"
+  }
+}
